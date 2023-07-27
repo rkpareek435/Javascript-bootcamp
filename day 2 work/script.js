@@ -114,7 +114,7 @@ function calculate(number1, operator, number2) {
     console.log(`${number1} ${operator} ${number2} = ${result}`);
 }
 const number1 = 200;
-const operator = "/"; // operator must be a string
+const operator = "/";
 const number2 = 300;
 calculate(number1, operator, number2);
 
@@ -158,11 +158,10 @@ function isPerfectNumber(num) {
 
     return sum === num;
 }  
-console.log(isPerfectNumber(6));    // Output: true (6 = 1 + 2 + 3)
-console.log(isPerfectNumber(28));   // Output: true (28 = 1 + 2 + 4 + 7 + 14)
-console.log(isPerfectNumber(12));   // Output: false (12 != 1 + 2 + 3 + 4 + 6)
-console.log(isPerfectNumber(496));  // Output: true (496 = 1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248)
-
+console.log(isPerfectNumber(6));    
+console.log(isPerfectNumber(28));   
+console.log(isPerfectNumber(12));   
+console.log(isPerfectNumber(496)); 
 
 /* Assignment 9:
 Write a JavaScript function that takes a number as a parameter and prints the Fibonacci series up to that number. The Fibonacci series is a sequence of numbers in which each number is the sum of the two preceding ones. */
