@@ -9,6 +9,7 @@ function getRandomColor() {
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
     }
+    document.addEventListener('click',changeBackgroundColor)
 
   let count = 0; // Step 5: Create a JavaScript variable 'count' and set its initial value to 0.
 
